@@ -1,0 +1,132 @@
+{
+    "projects": {
+        "test": {
+            "features": {
+                "customer_portal": {
+                    "Title": "Customer Document Uploading Feature",
+                    "Description": "The customer portal feature for uploading and managing documents. Includes support for PDF, Excel, and Word documents, with options to remove a document and handle validation errors."
+                },
+                "upload": {
+                    "Title": "Customer Document Upload Feature",
+                    "Description": "A feature to allow customers to upload multiple documents at once, with support for PDF, Excel, and Word files. The feature includes options for file types, limits, removal before submission, and validation handling."
+                },
+                "customer-portal": {
+                    "Title": "Customer Portal: Document Upload and Validation",
+                    "Description": "This feature includes the ability to upload multiple document types (PDF, Excel, Word) at once, and the option to remove a document before submitting. Additionally, it includes validation logic for uploaded documents."
+                }
+            },
+            "transcript_urls": [
+                "https://files.slack.com/files-pri/T0C076JKGVD-F0C4A8PEKQV/transcript.json",
+                "https://files.slack.com/files-pri/T0C076JKGVD-F0C4HAWBMJM/transcript.json",
+                "https://files.slack.com/files-pri/T0C076JKGVD-F0C4K3R28AY/transcript__1_.json"
+            ]
+        },
+        "a=test": {
+            "features": {
+                "customer_portal": {
+                    "Title": "Customer Portal Feature",
+                    "Description": "This feature allows customers to upload multiple documents, with options to specify file types, limits, and document removal before submission. There is also a validation process for uploaded documents."
+                },
+                "customer-portal": {
+                    "Title": "Customer Portal Document Upload Features",
+                    "Description": "This feature includes the ability to upload multiple documents at once, with different file types supported (PDF, Excel, Word). There is no specified limit on the number of documents a customer can upload. Users should be able to remove a document before submitting and only a failed document should be rejected, while the rest should be submitted."
+                }
+            },
+            "transcript_urls": [
+                "https://files.slack.com/files-pri/T0C076JKGVD-F0C4HC25JTB/transcript.json"
+            ]
+        },
+        "testtt": {
+            "features": {
+                "customer_portal": {
+                    "Title": "Customer Portal - Document Upload",
+                    "Description": "Features related to allowing customers to upload multiple documents at once and managing those uploads."
+                },
+                "customer-portal": {
+                    "Title": "Customer Document Upload",
+                    "Description": "Features related to allowing customers to upload and manage multiple documents, including different file types and validation."
+                }
+            },
+            "transcript_urls": [
+                "https://files.slack.com/files-pri/T0C076JKGVD-F0C4K4MQHRS/transcript.json"
+            ]
+        },
+        "testtttt": {
+            "features": {
+                "customer_portal": {
+                    "Title": "Customer Document Upload and Validation",
+                    "Description": "Defines the requirements for allowing customers to upload multiple documents of various file types, including PDF, Excel, and Word, and how to handle limits and validation failures."
+                },
+                "upload": {
+                    "Title": "Customer Portal - Document Upload Feature",
+                    "Description": "This feature allows customers to upload multiple documents at once, with support for PDF, Excel, and Word formats. It also includes functionality for removing a document before submission and handling failed document validation."
+                }
+            },
+            "transcript_urls": [
+                "https://files.slack.com/files-pri/T0C076JKGVD-F0C4DGDJG9L/transcript__1_.json"
+            ]
+        },
+        "new0-test": {
+            "features": {
+                "auth": {
+                    "Title": "Authentication Flow",
+                    "Description": "This section covers the flow for user authentication, including registration and login processes. Authentication is achieved through email and password, supplemented with mobile number login for international users. Password reset functionality is also included."
+                },
+                "user_browsing": {
+                    "Title": "User Browsing Flow",
+                    "Description": "This section covers the flow for user browsing products, including filtering, searching, and adding products to the cart. The home page will display categories, a search bar, promotional banners, and recommended products."
+                },
+                "authentication": {
+                    "Title": "User Authentication",
+                    "Description": "User authentication and login process for the e-commerce platform. Includes email and password login, mobile number login, and OTP verification for mobile numbers. Address is not required during registration. Users can reset their password using their registered email or phone number. Admins manage categories, sellers can create their own categories, and categories should be created by admins. The home page displays product categories, a search bar, promotional banners and recommended products. Customers can add products to the cart without logging in, and the guest cart is preserved for a limited period. Payment and order management will be handled in a separate discussion."
+                },
+                "Authentication": {
+                    "Title": "User Authentication for E-commerce Platform",
+                    "Description": "User authentication feature for the e-commerce platform, including user registration, login, password reset, and mobile number verification."
+                }
+            },
+            "transcript_urls": [
+                "https://files.slack.com/files-pri/T0C076JKGVD-F0C4QRTHPNH/transcript.json"
+            ]
+        },
+        "ai-test": {
+            "features": {
+                "authentication": {
+                    "Title": "Authentication",
+                    "Description": "Authentication and registration process for the e-commerce platform. Users can sign up using email and password, or mobile number. Users can also log in using their registered email or mobile number. They will also be able to reset their password using the registered email or mobile number. Authentication is handled separately and will be discussed in a later meeting."
+                },
+                "product_browsing": {
+                    "Title": "Product Browsing",
+                    "Description": "This feature includes browsing products, searching for products, viewing product details, adding products to the cart, and placing orders. Users can browse products, search by product name, category, price, brand, and rating. There are also filters such as category, price, brand, and rating. Users can view product images, descriptions, prices, discount, available quantity, seller information, ratings, and customer reviews. Users can also add products to their cart without logging in, and the guest cart will be preserved if the customer closes the browser and comes back later."
+                }
+            },
+            "transcript_urls": [
+                "https://files.slack.com/files-pri/T0C076JKGVD-F0C5QB1G5B2/transcript.json"
+            ]
+        },
+        "summa-test": {
+            "features": {
+                "authentication": {
+                    "Title": "User Authentication",
+                    "Description": "User registration and login using email and password. Mobile number login is also supported for Indian users. Users should be able to reset their password using their registered email or phone number."
+                },
+                "product_browsing": {
+                    "Title": "Product Browsing",
+                    "Description": "Users can browse products by category, search by product name, category, price, brand, and rating. Filters such as category, price, brand, and rating are supported. The product details page displays product images, name, description, price, discount, available quantity, seller information, ratings, and customer reviews. The home page shows product categories, a search bar, promotional banners, and recommended products. Users can add products to the cart without logging in as a guest, and the cart is preserved for a limited period after closing the browser."
+                },
+                "seller_product_management": {
+                    "Title": "Seller Product Management",
+                    "Description": "Only approved sellers can create, edit, and delete their product listings. Sellers can upload multiple product images with restrictions on file type and maximum file size. They can set selling price, discount price, and promotional prices. Each variant of a product has its own stock quantity. Admins review and approve seller listings before they become visible to customers. Sellers can add products to the cart as guests and log in to complete the purchase. It should be addable to cart."
+                },
+                "order_management": {
+                    "Title": "Order Management",
+                    "Description": "Users can place orders by adding products to the cart and completing the checkout process. Payment methods can be handled in a separate discussion for the first release. The system should support stock management and handle cart preservation for guests."
+                }
+            },
+            "transcript_urls": [
+                "https://files.slack.com/files-pri/T0C076JKGVD-F0C4UD0PEEA/transcript.json",
+                "https://files.slack.com/files-pri/T0C076JKGVD-F0C4YALRB4H/ecommerce_client_pm_transcript_03.json"
+            ]
+        }
+    }
+}
